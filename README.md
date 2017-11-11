@@ -1,4 +1,3 @@
 # Fikstür Algoritması
 
-
-# Main Java Class => fixturealgorithm/start.java
+Main Java Class => fixturealgorithm/start.java
