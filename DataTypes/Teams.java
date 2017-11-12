@@ -20,13 +20,13 @@ public enum Teams {
     Fenerbahçe("Fenerbahçe"),
     Galatasaray("Galatasaray"),
     Gaziantepspor("Gaziantepspor"),
-    Genclerbirligi("Genclerbirligi"),
-    Istanbul_Basaksehir("Istanbul_Basaksehir"),
-    Karabukspor("Karabukspor"),
-    Kasimpasa("Kasimpasa"),
+    Genclerbirligi("Gençlerbirliği"),
+    Istanbul_Basaksehir("Istanbul Başakşehir"),
+    Karabukspor("Karabükspor"),
+    Kasimpasa("Kasımpaşa"),
     Kayserispor("Kayserispor"),
     Konyaspor("Konyaspor"),
-    Osmanlispor("Osmanlispor"),
+    Osmanlispor("Osmanlıspor"),
     Trabzonspor("Trabzonspor");
     private String TakimName;
 
