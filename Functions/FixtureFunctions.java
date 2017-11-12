@@ -49,8 +49,6 @@ public class FixtureFunctions {
                 try {
                     if (Teams[(y == 1) ? x + 1 : x][(y == 1) ? 0 : 1].getTakimName() == LastTeam) {
                         tempTeams[x][y] = Teams[x][y];
-                    }
-                    if (Teams[(y == 1) ? x + 1 : x][(y == 1) ? 0 : 1].getTakimName() == LastTeam) {
                         continue; // Fixtur Jokeri Kontrolü 
                     }
                     if (((y == 1) ? x + 1 : x) == Teams.length - 1 && ((y == 1) ? 0 : 1) == 1) {
