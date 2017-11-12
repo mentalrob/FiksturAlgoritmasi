@@ -21,7 +21,8 @@ public class start {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        /*Teams[] Ex = new Teams[]{
+        Teams[] Ex;
+        /*Ex = new Teams[]{
             Teams.Adanaspor,
             Teams.Akhisar,
             Teams.Alanyaspor,
