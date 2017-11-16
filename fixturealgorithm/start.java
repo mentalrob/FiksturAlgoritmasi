@@ -21,16 +21,9 @@ public class start {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Teams[] Ex;
-        /*Ex = new Teams[]{
-            Teams.Adanaspor,
-            Teams.Akhisar,
-            Teams.Alanyaspor,
-            Teams.Beşiktaş,
-            Teams.Bursaspor,
-            Teams.Fenerbahçe
-        };*/
-        Ex = Teams.values();
+         Teams[] Ex;
+       // Ex = Teams.values();
+        Ex = MixingAlgorithm.randomCreate(args);
         Week Temp = null;
         for (int x = 1; x < Ex.length; x++) {
             Temp = (x==1) ? Week.Create(Ex) : Temp.nextWeek();
